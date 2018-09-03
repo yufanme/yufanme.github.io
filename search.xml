@@ -1,8 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[大家好，我是余帆]]></title>
-    <url>%2F2018%2F08%2F28%2F%E4%BB%8B%E7%BB%8D%2F</url>
-    <content type="text"><![CDATA[google 1234567891011121314151617181920212223242526272829import urllib.requestimport sslimport reimport sysimport timessl._create_default_https_context = ssl._create_unverified_contextdef open_url(url): req = urllib.request.Request(url) req.add_header('User-Agent','Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36') page = urllib.request.urlopen(req) non_bmp_map = dict.fromkeys(range(0x10000, sys.maxunicode + 1), 0xfffd) html = page.read().decode('utf-8').translate(non_bmp_map) return htmldef get_img(html): p = r'&lt;div class="recommend-card__price"&gt;\n (.+)\n &lt;/div&gt;' # p = r'([0,1]?\d?\d|2[0-4]\d|25[0-5]\.)&#123;3&#125;([0,1]?\d?\d|2[0-4]\d|25[0-5])' imglist = re.findall(p,html) return (imglist[0])if __name__ == '__main__': url1 = 'https://otcbtc.com/sell_offers?currency=bcat&amp;fiat_currency=cny&amp;payment_type=all' url2 = 'https://otcbtc.com/sell_offers?currency=eth&amp;fiat_currency=cny&amp;payment_type=all' print('现在时间是:'+str(time.asctime())) print('BCAT价格是:'+get_img(open_url(url1))) print('我有30375个BCAT，值%d元' % int(30375*float(get_img(open_url(url1))))) print('ETH价格是:'+get_img(open_url(url2))) www.baidu.com www.baidu.com 前言前篇Hexo初次使用及部署到云服务器详细指南介绍了Hexo相关的一些配置。本篇就趁热打铁，整理介绍一下Hexo上热度非常高的一款主题NexT。 NexT安装Hexo 安装主题的方式非常简单，只需要将主题文件拷贝至站点目录的 themes 目录下， 然后修改下配置文件即可。主题文件的下载主要有两种：]]></content>
+    <title><![CDATA[Cloud的方法]]></title>
+    <url>%2F2018%2F09%2F03%2F%E5%8D%B8%E8%BD%BDAdobe%20Creative%20Cloud%E7%9A%84%E6%96%B9%E6%B3%95%2F</url>
+    <content type="text"><![CDATA[大家好，我是余帆。 我装PS，发现多了一个Adobe creative cloud的软件，而且是自动安装的，一直占用我mac最顶端的状态栏，而且还强制开机启动！ 网上找了半天，找到官方给出的卸载方法：解除安裝 Creative Cloud 桌面應用程式 实测有效！]]></content>
+      <tags>
+        <tag>教程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[又快又全，0编程基础搭建hexo-next主题博客（附图）]]></title>
+    <url>%2F2018%2F08%2F31%2F%E5%8F%88%E5%BF%AB%E5%8F%88%E5%85%A8%EF%BC%8C%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E6%90%AD%E5%BB%BAhexo-next%E5%8D%9A%E5%AE%A2%EF%BC%8C%E9%99%84%E5%9B%BE%2F</url>
+    <content type="text"><![CDATA[不管你是文科生还是理科生，不管你是否有编程基础，都能搭建一个自己的在线博客，并且免费。本文会用图文并茂的方式，手把手教你，Go！ 我用的是hexo框架搭建的博客，用的next主题。什么是hexo框架呢，可以看成手机上的安卓系统，是博客的根基，而next主题可以看做安卓系统的不同皮肤。我建议你选next主题 ，因为它是用的最多的主题，遇到问题网上有不少教程解决，而且next主题也相当稳定好用，以后用惯了next，可以尝试其他的主题。]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
+      <tags>
+        <tag>教程</tag>
+      </tags>
   </entry>
 </search>
