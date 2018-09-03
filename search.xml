@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[Cloud的方法]]></title>
+    <title><![CDATA[卸载Adobe Creative Cloud的方法]]></title>
     <url>%2F2018%2F09%2F03%2F%E5%8D%B8%E8%BD%BDAdobe%20Creative%20Cloud%E7%9A%84%E6%96%B9%E6%B3%95%2F</url>
     <content type="text"><![CDATA[大家好，我是余帆。 我装PS，发现多了一个Adobe creative cloud的软件，而且是自动安装的，一直占用我mac最顶端的状态栏，而且还强制开机启动！ 网上找了半天，找到官方给出的卸载方法：解除安裝 Creative Cloud 桌面應用程式 实测有效！]]></content>
+      <categories>
+        <category>教程</category>
+      </categories>
       <tags>
         <tag>教程</tag>
       </tags>
