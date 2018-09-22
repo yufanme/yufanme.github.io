@@ -385,16 +385,6 @@
 
           
             
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
-                </span>
-                <a href="/2018/08/31/又快又全，手把手教你搭建hexo-next博客，附图/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count valine-comment-count" data-xid="/2018/08/31/又快又全，手把手教你搭建hexo-next博客，附图/" itemprop="commentCount"></span>
-                </a>
-              </span>
-            
           
 
           
@@ -471,47 +461,8 @@
     
     
 
-      <div>
-        
-          <div>
-    
-        <div style="text-align:center;color: #ccc;font-size:14px;">-------------本文结束<i class="fa fa-paw"></i>感谢您的阅读-------------</div>
-    
-</div>
-        
-      </div>
-
     
 
-    
-      <div>
-        <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
-  <div>打赏一次，一年好运</div>
-  <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
-    <span>打赏</span>
-  </button>
-  <div id="QR" style="display: none;">
-
-    
-      <div id="wechat" style="display: inline-block">
-        <img id="wechat_qr" src="https://ws1.sinaimg.cn/large/b521295dgy1furrffqhcrj209q09qq52.jpg" alt="余帆 微信支付"/>
-        <p>微信支付</p>
-      </div>
-    
-
-    
-      <div id="alipay" style="display: inline-block">
-        <img id="alipay_qr" src="https://ws1.sinaimg.cn/large/b521295dgy1furrfhn9x7j209a09e0vt.jpg" alt="余帆 支付宝"/>
-        <p>支付宝</p>
-      </div>
-    
-
-    
-
-  </div>
-</div>
-
-      </div>
     
 
     
@@ -940,38 +891,6 @@
 
 
 
-
-  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
-  <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
-  
-  <script type="text/javascript">
-    var GUEST = ['nick','mail','link'];
-    var guest = 'nick,mail,link';
-    guest = guest.split(',').filter(item=>{
-      return GUEST.indexOf(item)>-1;
-    });
-    new Valine({
-        el: '#comments' ,
-        verify: false,
-        notify: false,
-        appId: '8g1ePMLg1GQtE9r91hVJ8J6B-gzGzoHsz',
-        appKey: '2ww0iF0zxgNvzqCAcuCR53iB',
-        placeholder: '来，输入一段永不消失的文字~',
-        avatar:'mm',
-        guest_info:guest,
-        pageSize:'10' || 10,
-
-    });
-
-//新增以下代码即可，可以移除.info下所有子节点。
-var infoEle = document.querySelector('#comments .info');
-if (infoEle && infoEle.childNodes && infoEle.childNodes.length > 0){
-  infoEle.childNodes.forEach(function(item) {
-    item.parentNode.removeChild(item);
-  });
-}
-
-  </script>
 
 
 
@@ -1444,6 +1363,3 @@ if (infoEle && infoEle.childNodes && infoEle.childNodes.length > 0){
 
 <script src="/live2dw/lib/L2Dwidget.min.js?0c58a1486de42ac6cc1c59c7d98ae887"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"jsonPath":"live2d-widget-model-wanko"},"display":{"position":"right","width":150,"height":300},"mobile":{"show":true},"log":false});</script></body>
 </html>
-
-<!-- 页面点击小红心 -->
-<script type="text/javascript" src="/js/src/love.js"></script>

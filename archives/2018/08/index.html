@@ -702,38 +702,6 @@
 
 
 
-  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
-  <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
-  
-  <script type="text/javascript">
-    var GUEST = ['nick','mail','link'];
-    var guest = 'nick,mail,link';
-    guest = guest.split(',').filter(item=>{
-      return GUEST.indexOf(item)>-1;
-    });
-    new Valine({
-        el: '#comments' ,
-        verify: false,
-        notify: false,
-        appId: '8g1ePMLg1GQtE9r91hVJ8J6B-gzGzoHsz',
-        appKey: '2ww0iF0zxgNvzqCAcuCR53iB',
-        placeholder: '来，输入一段永不消失的文字~',
-        avatar:'mm',
-        guest_info:guest,
-        pageSize:'10' || 10,
-
-    });
-
-//新增以下代码即可，可以移除.info下所有子节点。
-var infoEle = document.querySelector('#comments .info');
-if (infoEle && infoEle.childNodes && infoEle.childNodes.length > 0){
-  infoEle.childNodes.forEach(function(item) {
-    item.parentNode.removeChild(item);
-  });
-}
-
-  </script>
-
 
 
   
@@ -1205,6 +1173,3 @@ if (infoEle && infoEle.childNodes && infoEle.childNodes.length > 0){
 
 <script src="/live2dw/lib/L2Dwidget.min.js?0c58a1486de42ac6cc1c59c7d98ae887"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"jsonPath":"live2d-widget-model-wanko"},"display":{"position":"right","width":150,"height":300},"mobile":{"show":true},"log":false});</script></body>
 </html>
-
-<!-- 页面点击小红心 -->
-<script type="text/javascript" src="/js/src/love.js"></script>
