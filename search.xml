@@ -1,20 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[本文终结科学上网问题]]></title>
+    <url>%2F2018%2F09%2F27%2F%E6%9C%AC%E6%96%87%E7%BB%88%E7%BB%93%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91%E9%97%AE%E9%A2%98%2F</url>
+    <content type="text"><![CDATA[经常有人问我如何科学上网，求推荐靠谱的科学上网。网上有很多教程，但总体收费的比免费的服务好很多。 分享一下我长期用的服务。应该是比较长久的，我是直接购买的vps主机，然后搭建服务，也是比较简单的，方法如下： 1.购买vps： 1.1进入官网 我购买的是搬瓦工vps。为什么购买这家vps，因为他是比较主流的科学上网vps提供商，安装服务很方便，直接在后台一键安装。 进入下面的链接： http://www.bwh1.net/aff.php?aff=27575（这个是我的推荐链接，从这个链接进去购买我会有推荐奖励，从其他地方进去一样的效果~） 1.2购买vps 进入主页网站主页后点击如下图所示的位置，进入选购页面~ 一般选购如下图所示最便宜的就行。10、20、40Gvps只能是年付。(yr代表年付，mo代表月付)，后面的几种都是可以月付的。我选的是20Gvps，一个月流量是1100G，完全够用。 点击如下图所示的位置 这时候，你来到这个页面： 这个下拉框的选项是付款周期，分别是半年付和年付。 看不懂英文的可以用搜索引擎翻译一下。（推荐用谷歌浏览器） 如下图的选项49.99美金就是年付的价格。 下图下拉框是选择服务器所在地。 我选择的是加拿大的服务器。美国的也可以。 选择好以后，Addto Cart，进入下一步，然后继续，提交订单 结账单的时候需要注册一下： 填写如下信息，下面的信息中最关键的是登录邮箱和密码，其他可以随意。 2.买好以后，安装服务 买好以后，刚买好，估计装机需要几分钟时间。 你登录你的账号，点击在下图所示的地方，点击My Services，进入你的vps列表 点击如下图的位置，进入后台面板 进入后台后，这个列表，选择红框中的选项。然后进行安装。如果提示不能安装稍等一下的话，就等一会就可以安装了。 注：最近很多新购买的服务器在VPS管理面板没有shadowsocks server这一项，若是发生此原因，请按如下操作即可正常安装！若页面中没有Shadowsocks Server这一项，说明一键搭建SS功能被去掉了，这时候需要在当前浏览器的新标签中打开以下网址： https://kiwivm.64clouds.com/main-exec.php?mode=extras_shadowsocks 打开以后就是安装页面，点击页面中的Install Shadowsocks Server安装即可(安装前提是服务器已打开已运行并且已经登录)。 安装好以后，点击“go back”（有些有）你会得到如下图所示的信息： 你把这些信息复制下来： 主要是端口号。还有密码。 Shadowsocksserver port是端口号 Shadowsocksserver password是密码 还有你这台vps的ip地址，你也得获得 获得方式，你在后台打开下图的标签可查询到你的ip地址： 保存好 IP地址、密码、端口号就可以了。（重要） 3：用这些信息就可以科学上网了 接下来根据你要用的手机或者电脑来下载相关的终端软件： 下载链接： Windows：https://github.com/shadowsocks/shadowsocks-windows/releases Android：https://github.com/shadowsocks/shadowsocks-android/releases Mac：https://github.com/shadowsocks/ShadowsocksX-NG/releases Ios：appstore搜索 wingy 选择相关的都可以。 最后：在软件中输入相应的IP地址、端口号、密码就可以了。可以开始愉快的使用了。]]></content>
+  </entry>
+  <entry>
     <title><![CDATA[卸载Adobe Creative Cloud的方法]]></title>
     <url>%2F2018%2F09%2F03%2F%E5%8D%B8%E8%BD%BDAdobe%20Creative%20Cloud%E7%9A%84%E6%96%B9%E6%B3%95%2F</url>
     <content type="text"><![CDATA[大家好，我是余帆。 我装PS，发现多了一个Adobe creative cloud的软件，而且是自动安装的，一直占用我mac最顶端的状态栏，而且还强制开机启动！ 网上找了半天，找到官方给出的卸载方法：解除安裝 Creative Cloud 桌面應用程式 实测有效！]]></content>
-      <categories>
-        <category>教程</category>
-      </categories>
-      <tags>
-        <tag>教程</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[又快又全，0编程基础搭建hexo-next主题博客（附图）]]></title>
-    <url>%2F2018%2F08%2F31%2F%E5%8F%88%E5%BF%AB%E5%8F%88%E5%85%A8%EF%BC%8C%E6%89%8B%E6%8A%8A%E6%89%8B%E6%95%99%E4%BD%A0%E6%90%AD%E5%BB%BAhexo-next%E5%8D%9A%E5%AE%A2%EF%BC%8C%E9%99%84%E5%9B%BE%2F</url>
-    <content type="text"><![CDATA[不管你是文科生还是理科生，不管你是否有编程基础，都能搭建一个自己的在线博客，并且免费。本文会用图文并茂的方式，手把手教你，Go！ 我用的是hexo框架搭建的博客，用的next主题。什么是hexo框架呢，可以看成手机上的安卓系统，是博客的根基，而next主题可以看做安卓系统的不同皮肤。我建议你选next主题 ，因为它是用的最多的主题，遇到问题网上有不少教程解决，而且next主题也相当稳定好用，以后用惯了next，可以尝试其他的主题。]]></content>
       <categories>
         <category>教程</category>
       </categories>
